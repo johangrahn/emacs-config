@@ -59,5 +59,6 @@
 
 (add-to-list 'load-path (expand-file-name "init" user-emacs-directory))
 (require 'theme) 
+(require 'git)
 
 (provide 'init) 
