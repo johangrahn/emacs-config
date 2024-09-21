@@ -54,5 +54,10 @@
 ;; Project support
 (require 'project)
 
+
 (setq custom-file (locate-user-emacs-file "custom.el"))
 
+(add-to-list 'load-path (expand-file-name "init" user-emacs-directory))
+(require 'theme) 
+
+(provide 'init) 
