@@ -34,7 +34,12 @@
 ;; display column number in mode line
 (column-number-mode 1)
 
-nnn  (setq ns-right-alternate-modifier nil)
+(when (memq window-system '(mac ns x))
+  (use-package exec-path-from-shell
+    :ensure t)
+  (exec-path-from-shell-initialize)
+  
+  (setq ns-right-alternate-modifier nil)
   (setq mac-option-key-is-meta nil)
   (setq mac-command-key-is-meta t)
   (setq mac-command-modifier 'meta)
