@@ -49,7 +49,7 @@
   (add-to-list 'default-frame-alist '(ns-appearance . dark))
   (add-to-list 'default-frame-alist '(ns-transparent-titlebar . t))
 
-  (set-frame-font "Hack Nerd Font Mono 15"))
+  (set-frame-font "Hack Nerd Font Mono 13"))
 
 ;; Project support
 (require 'project)
