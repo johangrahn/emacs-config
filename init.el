@@ -51,6 +51,9 @@
 
   (set-frame-font "Hack Nerd Font Mono 13"))
 
+
+(setq-default indent-tabs-mode nil)
+
 ;; Project support
 (require 'project)
 
