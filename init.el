@@ -61,5 +61,6 @@
 (require 'ui)
 (require 'theme) 
 (require 'git)
+(require 'eglot-conf)
 
 (provide 'init) 
