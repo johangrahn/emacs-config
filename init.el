@@ -49,7 +49,7 @@
   (add-to-list 'default-frame-alist '(ns-appearance . dark))
   (add-to-list 'default-frame-alist '(ns-transparent-titlebar . t))
 
-  (set-frame-font "Hack Nerd Font Mono 13"))
+  (set-frame-font "Hack Nerd Font Mono 15"))
 
 
 (setq-default indent-tabs-mode nil)
@@ -62,8 +62,9 @@
 
 (add-to-list 'load-path (expand-file-name "init" user-emacs-directory))
 (require 'ui)
-(require 'theme) 
+(require 'theme)
 (require 'git)
 (require 'eglot-conf)
 
-(provide 'init) 
+(provide 'init)
+;;; init.el ends here
